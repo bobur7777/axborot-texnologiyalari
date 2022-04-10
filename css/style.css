@@ -30,7 +30,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.hedear__top {
+.header__top {
   position: relative;
   top: 0;
   left: 0;
@@ -48,7 +48,8 @@
 }
 .inst__name h1 {
   font-size: 20px;
-  color: blanchedalmond;
+  color: gold;
+  text-shadow: 5px 5px 20px gold;
 }
 
 .header__text {
@@ -229,6 +230,7 @@
 
 .download__6 a {
   font-size: 35px;
+  margin-left: 30px;
   text-decoration: none;
   color: #fff;
   text-shadow: 0 0 10px #fff;
@@ -237,8 +239,8 @@
 }
 
 .download__6 a:hover {
-  color: aqua;
-  text-shadow: 0 0 10px aqua;
+  color: gold;
+  text-shadow: 0 0 10px gold;
 }
 .name__of__box {
   color: #fff;
@@ -311,7 +313,7 @@
 .download__links {
   position: relative;
   top: 50px;
-  padding: 30px;
+  margin: 10px 20px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
