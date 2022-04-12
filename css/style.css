@@ -40,7 +40,7 @@
   display: flex;
   align-items: center;
   box-shadow: 5px 5px 50px gold;
-  border-radius: 50px;
+  border-radius: 45px;
 }
 .header__logo img {
   position: relative;
@@ -256,11 +256,13 @@
   border: 3px solid gold;
   box-shadow: gold 5px 5px 50px;
   border-radius: 0px 20px 20px 0px;
+  cursor: pointer;
 }
 .box__name .img {
   position: relative;
-  top: 0;
-  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -443,7 +445,7 @@
     width: 95%;
   }
   .header .container {
-    padding: 5px;
+    padding: 7px;
   }
   .inst__name h1 {
     font-size: 14px;
