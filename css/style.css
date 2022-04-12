@@ -197,12 +197,13 @@
 .all-videos {
   position: relative;
   width: 90%;
-  display: flex;flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
 }
-.all-videos a{
+.all-videos a {
   min-width: 230px;
   min-height: 100px;
   margin: 20px;
@@ -218,14 +219,13 @@
   color: #fff;
   text-shadow: #fff 1px 1px 10px;
 }
-.all-videos a:hover{
+.all-videos a:hover {
   transform: scale(1.1);
 }
-.all-videos a img{
+.all-videos a img {
   width: 100px;
   height: 70px;
   border-radius: 10px;
-  
 }
 
 .download__6 a {
@@ -294,10 +294,8 @@
 }
 .close__button h4 {
   position: relative;
-  top: 0;
-  left: 0;
+  margin: 40px 10px 10px 20px;
   font-size: 35px;
-  padding-left: 30px;
 }
 .close__button img {
   position: relative;
@@ -414,28 +412,28 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.muallif__info{
+.muallif__info {
   margin: 0 auto;
   width: 60%;
   display: flex;
   justify-content: space-around;
 }
-.muallif__info img{
+.muallif__info img {
   position: relative;
-  border-radius:15px;
+  border-radius: 15px;
   width: 150px;
   transition: 0.2s;
 }
-.muallif__info img:hover{
+.muallif__info img:hover {
   transform: scale(1.05);
-  cursor: pointer
+  cursor: pointer;
 }
-.muallif__info .text h1{
+.muallif__info .text h1 {
   font-size: 25px;
-  cursor:pointer
+  cursor: pointer;
 }
-.muallif__info .text p{
-  cursor:pointer
+.muallif__info .text p {
+  cursor: pointer;
 }
 
 /* MEDIA */
@@ -445,9 +443,9 @@
     width: 95%;
   }
   .header .container {
-    padding: 0 10px;
+    margin: 0px;
   }
-  .inst__name h1{
+  .inst__name h1 {
     font-size: 14px;
   }
 }
