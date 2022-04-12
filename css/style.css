@@ -443,8 +443,7 @@
     width: 95%;
   }
   .header .container {
-    margin: 0px;
-  }
+padding: 5px;  }
   .inst__name h1 {
     font-size: 14px;
   }
