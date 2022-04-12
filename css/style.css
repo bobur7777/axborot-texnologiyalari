@@ -282,10 +282,6 @@
 .text h4 {
   font-size: 20px;
   cursor: pointer;
-  display: block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .close__button {
